@@ -15,11 +15,17 @@ conda create -p venv python -y
 Assign User Name
 
 ```
-git config --global user.name
+git config --global user.name "Your name"
 ```
 
 Assign Email used to create Github Account
 
 ```
-git config --global user.email
+git config --global user.email "You@example.com"
+```
+
+Install ipykernel within the environment in the terminal before running jupyter notebook
+
+```
+pip install ipykernel
 ```
